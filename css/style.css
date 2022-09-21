@@ -106,6 +106,9 @@ strong{
     display: block;
 }
 
+.hover-image{
+    position: absolute;
+}
 h4{
     font-size: 18px;
     margin-top: 0px;
@@ -196,6 +199,10 @@ h4{
     font-weight: bolder;
 }
 
+.heart:hover{
+    color: red;
+}
+
 /* .discount-30{
     position: absolute;
     top: 80%;
@@ -216,8 +223,10 @@ footer{
     max-width: 1200px;
     margin: auto;
     padding: 0px;
+    padding-top: 15px;
     align-items: center;
     margin-top: 20px;
+    height: 35px;
 }
 
 .footer-2{
