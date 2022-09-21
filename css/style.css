@@ -9,12 +9,64 @@ body{
 
 /* COMMON
 --------- */
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    
+}
 
+.header-box{
+    width: 100%;
+    background-color: #FF6900;
+    position: fixed;
+}
 
 /* TYPO
 --------- */
+body{
+    font-family: 'Roboto', sans-serif;
+}        
 
 
 /* MAIN
 --------- */
 
+.logo img{
+    height: 30px;
+}
+
+.nav{
+    width: 20%;
+    text-align: center;
+}
+
+ 
+
+.logo{
+    width: 60%;
+    text-align: center;
+    
+}
+
+.icons{
+    width: 20%;
+    text-align: center;
+   
+}
+
+.nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px;
+}
+
+.icons i{
+    color: white;
+    padding: 5px;
+}
