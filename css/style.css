@@ -92,6 +92,7 @@ strong{
    width: calc(33.33% - 20px);
    margin: 10px;
    padding-top: 40px;
+   height: 100%;
    
 }
 
@@ -104,4 +105,139 @@ h4{
     font-size: 18px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+
+.item{
+    position: relative;
+}
+
+.item-2{
+    position: relative;
+}
+
+.item-3{
+    position: relative;
+}
+
+.item-4{
+    position: relative;
+}
+
+
+.relative-img img{
+    position: relative;
+}
+
+.discount-50{
+    position: absolute;
+    top: 80%;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.discount-30{
+    position: absolute;
+    bottom: 7%;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.discount-30-2{
+    position: absolute;
+    bottom: 16%;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+
+.sostenibilità{
+    position: absolute;
+    top: 80%;
+    left: 15%;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.sostenibilità-2{
+    position: absolute;
+    top: 79.6%;
+    left: 15%;
+    background-color: green;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.heart{
+    position: absolute;
+    top: 2%;
+    right: 0%;
+    background-color: white;
+    color: black;
+    padding: 10px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+/* .discount-30{
+    position: absolute;
+    top: 80%;
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    font-size: 14px;
+    font-weight: bolder;
+} */
+
+footer{
+    background-color: black;
+    padding-bottom: 40px;
+}
+.footer-1{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+}
+
+h3{
+    color: white;
+}
+
+h5{
+    color: white;
+}
+
+.footer-nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    margin-right: 10px;
+    
+}
+
+
+.footer-icons a{
+    color: white;
+    margin-left: 5px;
+
 }
