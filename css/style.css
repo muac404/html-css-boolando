@@ -23,7 +23,9 @@ body{
 .header-box{
     width: 100%;
     background-color: #FF6900;
-    position: fixed;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 150;
 }
 
 /* TYPO
@@ -31,6 +33,11 @@ body{
 body{
     font-family: 'Roboto', sans-serif;
 }        
+
+strong{
+    color: red;
+    font-weight: bold;
+}
 
 
 /* MAIN
@@ -69,4 +76,32 @@ body{
 .icons i{
     color: white;
     padding: 5px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+    
+    
+    flex-wrap: wrap;
+}
+
+.col{
+   width: calc(33.33% - 20px);
+   margin: 10px;
+   padding-top: 40px;
+   
+}
+
+.col img{
+    width: 100%;
+    display: block;
+}
+
+h4{
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
